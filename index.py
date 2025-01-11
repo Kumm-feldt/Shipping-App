@@ -567,3 +567,5 @@ button_exit.place(x=1042, y=745)
 
 
 root.mainloop()
+
+
