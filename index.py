@@ -514,7 +514,8 @@ def test():
     }
 
     fileName = f'Barco MV {name}'
-    directorio = f"C:\\Users\\antho\\Desktop\\{fileName}\\"
+    directorio = f"C:\\Users\\antho\\OneDrive\\Desktop\\{fileName}\\"
+
     caracter = '.docx'
     for documents in doc:
         # ../Desktop/Barco MV {name}
@@ -534,13 +535,12 @@ def test():
         document.render(context)
         document.save(name_save)
 
-        print(name_save)
-        print(destino_final)
         # Mover documento de folder original hacia el destino final
-        if(shutil.move(name_save, destino_final)):
-            # Renombrar archivo a archivo + nombre de barco
-            os.rename(f'{directorio}{documents}', newName_doc)
-            print("renamed")
+        shutil.move(name_save, destino_final)
+
+        # Renombrar archivo a archivo + nombre de barco
+        os.rename(f'{directorio}{documents}', newName_doc)
+
 
 
 #FUNCIONES-------------------------->>>>>>>>>>>>>>>>>>>>>>>
