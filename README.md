@@ -1,5 +1,5 @@
 
-# Guatemala Marítima, S.A. - Vessel Documentation Manager
+# Vessel Documentation Manager
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -15,7 +15,7 @@
 ---
 
 ## Introduction
-The **Guatemala Marítima, S.A. Vessel Documentation Manager** is a desktop application built using Python and Tkinter. The tool streamlines the creation and organization of maritime documentation for new vessels. It automates folder creation, document preparation, and file management based on user input.
+The **Vessel Documentation Manager** is a desktop application built using Python and Tkinter. The tool streamlines the creation and organization of maritime documentation for new vessels. It automates folder creation, document preparation, and file management based on user input.
 
 ---
 
@@ -107,7 +107,7 @@ pip install -r requirements.txt
 ---
 
 ## Contributors
-- **Primary Developer**: Guatemala Marítima, S.A.
+- **Primary Developer**: Anthony Kummerfeldt
 
 ---
 
