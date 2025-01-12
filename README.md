@@ -116,8 +116,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-```
-
 ### Notes
 - The `README.md` assumes you have the necessary images, templates, and fonts in the correct paths.
 - If you want me to add anything specific (like a sample output or advanced usage), let me know!
